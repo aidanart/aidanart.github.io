@@ -1,5 +1,5 @@
 .header {
-    background-image: url(images/banner.png);
+    background-image: url(images/banner.webp);
     position: absolute;
     left: 0;
     top: 0;
@@ -107,4 +107,5 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
+
   }*/
