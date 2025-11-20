@@ -46,7 +46,7 @@
     position: absolute;
     top: 125px;
     left: 0;
-    text-align: center;
+    text-align: left;
     width: 100%;
     overflow: auto;
 }
@@ -59,7 +59,7 @@
 }
 
 .photos {
-    text-align: center;
+    text-align: left;
     margin: auto;
     width: 25%;
     height: 70px;
@@ -109,4 +109,5 @@ footer {
     left: 0;
 
   }*/
+
 
