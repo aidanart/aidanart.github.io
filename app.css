@@ -38,11 +38,13 @@
 }
 
 .sectionHeader {
+    color: white;
     font-family: Verdana, Arial;
     font-weight: normal;
 }
 
 .content { 
+    background-image: url(images/banner.webp);
     position: absolute;
     top: 125px;
     left: 0;
@@ -52,6 +54,7 @@
 }
 
 .paragraph {
+    color: white;
     font-size: large;
     padding-left: 20%;
     padding-right: 20%;
@@ -109,6 +112,7 @@ footer {
     left: 0;
 
   }*/
+
 
 
 
