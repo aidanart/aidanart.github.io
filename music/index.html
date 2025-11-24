@@ -21,14 +21,12 @@
 
     <div class="content">
 
-        <a href="#" style="color: red; onclick="showPlayer(); return false;">Chattanooga Riff.mp3</a>
-        <a href="#" onclick="showPlayer(); return false;">Chattanooga Riff.mp3</a>
-        <a href="#" onclick="showPlayer(); return false;">Chattanooga Riff.mp3</a>
+        <a href="#" class="audio-link" data-src="../audio/Chattanooga Riff.mp3">Chattanooga Riff</a><br>
+        <a href="#" class="audio-link" data-src="../audio/SwingTune.mp3">Swing Tune</a><br>
+        <a href="#" class="audio-link" data-src="../audio/JazzBlues.mp3">Jazz Blues</a><br>
 
 <div id="audioContainer" style="display:none; margin-top:10px;">
-    <audio id="audioPlayer" controls>
-        <source src="../audio/Chattanooga Riff.mp3" type="audio/mpeg">
-    </audio>
+    <audio id="audioPlayer" controls></audio>
 </div>
 
 <script>
