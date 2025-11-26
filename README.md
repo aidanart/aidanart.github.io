@@ -1,2 +1,2 @@
-# holo-website
-aidans website.
+# aidan-art-website
+aidans art website.
