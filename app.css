@@ -74,6 +74,7 @@ body {
 }
 
 .poetry {
+    white-space: pre-line;
     font-style: italic;
     color: black;
     font-size: small;
@@ -140,6 +141,7 @@ body {
     left: 0;
 
   }*/
+
 
 
 
