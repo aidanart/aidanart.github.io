@@ -79,8 +79,8 @@ body {
     white-space: pre-line;
     color: black;
     font-size: small;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
     line-height: 125%;
 
 }
@@ -142,6 +142,7 @@ body {
     left: 0;
 
   }*/
+
 
 
 
