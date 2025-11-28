@@ -93,7 +93,7 @@ body {
     width: 25%;
     height: 70px;
     outline: 2px solid lightgray;
-    line-height: 10%;
+    line-height: 20px;
 }
 
 .photosLink {
@@ -115,6 +115,7 @@ body {
     padding-top: 20px;
     text-align: center;
     background-color: white;
+    line-height: 20px
 
 }
 
@@ -145,6 +146,7 @@ body {
     left: 0;
 
   }*/
+
 
 
 
