@@ -119,6 +119,10 @@ body {
 
 }
 
+.audio-link {
+    color: cyan;
+}
+
 /*footer {
     background-color: black;
     height: 100%;
@@ -146,6 +150,7 @@ body {
     left: 0;
 
   }*/
+
 
 
 
