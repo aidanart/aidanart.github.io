@@ -31,20 +31,48 @@
         </p>
         <a href="#" class="audio-link" style="color: #9700b5;" data-src="./audio/Outsideoftheyear.mp3">Outsideoftheyear.mp3</a><br>
       </div>
+<!-- shared audio player -->
+<div id="audioContainer" style="display:none; margin-top:10px;">
+    <audio id="audioPlayer" controls></audio>
+</div>
+
+<script>
+// Simple working version:
+// - One audio player
+// - Click link → moves player under that link and plays
+
+document.querySelectorAll(".audio-link").forEach(link => {
+    link.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        const audioSrc = this.dataset.src;
+        const audioPlayer = document.getElementById("audioPlayer");
+        const audioContainer = document.getElementById("audioContainer");
+
+        // Set audio file
+        audioPlayer.src = audioSrc;
+
+        // Move the audio container right under the clicked link
+        this.insertAdjacentElement("afterend", audioContainer);
+
+        // Show + load + play
+        audioContainer.style.display = "block";
+        audioPlayer.load();
+        audioPlayer.play().catch(() => {
+            // If autoplay is blocked, user just clicks play manually
+        });
+    });
+});
+</script>
       <footer>
         <p><a href="/">Home</a> <a href="/photos/">photos</a> <a href="/music/">music</a> <a href="/misc/">misc</a> </p>
       </footer>
     </div>
-
-    <!--<div class="siteFooter">
-        <a href="/">Home</a>
-        <a href="/reports/">photos</a>
-      </div>
-    </div>-->
   </body>
 
   <script src="app.js"></script>
 </html>
+
 
 
 
