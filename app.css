@@ -69,7 +69,7 @@ body {
 .paragraph {
     color: white;
     font-size: large;
-    padding-left: 10%;
+    padding-left: 12%;
     padding-right: 10%;
     line-height: 150%;
 }
@@ -118,6 +118,7 @@ body {
 .audio-link {
     color: #9700b5;
 }
+
 
 
 
